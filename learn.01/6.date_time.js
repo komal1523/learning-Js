@@ -30,3 +30,11 @@ console.log(b.getMonth());
 
 let c = new Date(1983 , 9 , 1 )
 console.log(c.getDate());
+
+let myDate = new Date(2024 , 6 , 17 )
+console.log(myDate.toLocaleString());
+
+x.toLocaleString('default',{
+    weekday:"long"
+    
+})
