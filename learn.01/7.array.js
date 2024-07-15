@@ -70,4 +70,12 @@ const arr8 = ["hello","I","am","komal","done"]
      
      console.log(arr9.splice(3,0,"riya","kanak"));
 
+//spredout method 
+
+const girlName= ["riya","anisha","priya"]
+const boyName= ["rahul","ankit","prince"]
+
+const allName=[...girlName,...boyName]
+console.log(allName);
+
 
