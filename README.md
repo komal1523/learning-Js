@@ -1,2 +1,2 @@
 # learning-Js
-learning stages javascript from scratch
+learning javascript from scratch
