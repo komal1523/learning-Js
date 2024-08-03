@@ -1,2 +1,4 @@
 # learning-Js
-learning stages javascript from scratch
+learning javascript from scratch 🌟
+Sharing my daily learning process of Js ✌
+
