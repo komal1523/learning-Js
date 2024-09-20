@@ -1,18 +1,18 @@
 
 
 
-//let score="33"                    
+// let score="33"                    
 //let score = null  
-let score = undefined
+// let score = undefined
 
-//console.log(typeof score);
+// console.log(typeof score);
 // or console.log(typeof(score));
 
 //converting  the value into number
 
-let valueInNumber= Number(score)
-//console.log(typeof( valueInNumber));
-//console.log( valueInNumber);  
+// let valueInNumber= Number(score)
+// console.log(typeof( valueInNumber));
+// console.log( valueInNumber);  
 
 //note:---
 // "23" === 33
@@ -25,10 +25,10 @@ let valueInNumber= Number(score)
 
 //converting into boollean 
 
-let isLoggedIn= 1
-let booleanisaLoggedIn = Boolean(isLoggedIn)
-//console.log(booleanisaLoggedIn);
-
+// let isLoggedIn= 1
+// let booleanisaLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanisaLoggedIn);
+// console.log(typeof booleanisaLoggedIn);
 //note 
 
 // 1 === true
@@ -36,10 +36,10 @@ let booleanisaLoggedIn = Boolean(isLoggedIn)
 // "komal"=== true
 // "" === false
 
-let aNumber= 53
-let stringNumber = String(aNumber)
-//console.log(stringNumber);
-//console.log(typeof stringNumber);
+// let aNumber= 53
+// let stringNumber = String(aNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
 
 
@@ -47,7 +47,7 @@ let stringNumber = String(aNumber)
 
 let value = 28
 let negValue = -value
-//console.log(negValue);
+console.log(negValue);
 
 //console.log(2+2);
 //console.log(2-2);
@@ -56,9 +56,9 @@ let negValue = -value
 //console.log(2/3); remainder value
 //console.log(2%3); quotient value
 
-let str1="komal"
-let str2=" kumari"
-let str3= str1+str2
+// let str1="komal"
+// let str2=" kumari"
+// let str3= str1+str2
 //console.log(str3);
 
 //console.log("1"+2);
@@ -78,18 +78,18 @@ let str3= str1+str2
 
 //array
 
-const heros =["shaktiman", "batman"];
-let myObj={
-    name: "komal",             //here they are objects under{}
-    age: 19,
+// const heros =["shaktiman", "batman"];
+// let myObj={
+//     name: "komal",             //here they are objects under{}
+//     age: 19,
 
-}
+// }
 
 //declaration of function
 
-const myFunction=function(){
-    //console.log("hello world");
-}
+// const myFunction=function(){
+//     //console.log("hello world");
+// }
 
 // console.log(typeof bigNumber);    //undefined
 //console.log(typeof heros);           //function object
@@ -100,10 +100,10 @@ const myFunction=function(){
 
 // stack memory(primitive )                    heap memory(non-primitive)
 
-let myName="komal"
+// let myName="komal"
  
 //let myAnotherName= myName
-let myAnotherName= "komu"
+// let myAnotherName= "komu"
 
 //console.log(myAnotherName);  //give the value of myName which is komal
 
@@ -111,13 +111,13 @@ let myAnotherName= "komu"
 
 // example of heap
 
-let userOne ={
-    email : "user@gmail.com" ,
-    upi:"user@ybl",
-}
-let userTwo =userOne 
+// let userOne ={
+//     email : "user@gmail.com" ,
+//     upi:"user@ybl",
+// }
+// let userTwo =userOne 
 
-userTwo.email="helloworld@gmail.com"
+// userTwo.email="helloworld@gmail.com"
 
 //console.log(userOne.email);   // here value direct fetch from original not from the copy of data
 //console.log(userTwo.email);
